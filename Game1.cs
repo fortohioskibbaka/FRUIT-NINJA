@@ -138,7 +138,6 @@ namespace FRUIT_NINJA
             var mouseState = Mouse.GetState();
             swordposition = new Vector2(mouseState.X - swordtexture.Width / 100, mouseState.Y - swordtexture.Height / 100);
 
-
             previousmousestate = MouseState;
             MouseState = Mouse.GetState();
             seconds += (float)gameTime.ElapsedGameTime.TotalSeconds;

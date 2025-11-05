@@ -38,34 +38,6 @@ namespace FRUIT_NINJA
         SpriteFont font;
         private double timer = 25;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
